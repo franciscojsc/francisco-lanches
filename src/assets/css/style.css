@@ -7,4 +7,24 @@
 body {
   background-color: #ffe190;
   font-family: "Pangolin", cursive;
+  font-size: 20px;
+}
+
+.header img {
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .header img {
+    display: inline-block;
+  }
+}
+
+.header h1 {
+  font-size: 3em;
+  text-align: center;
+  color: #e50021;
 }
