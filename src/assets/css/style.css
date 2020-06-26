@@ -28,3 +28,22 @@ body {
   text-align: center;
   color: #e50021;
 }
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  background-color: #e50021;
+  min-height: 2em;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  color: rgb(213, 255, 60);
+}
