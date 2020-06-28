@@ -157,3 +157,24 @@ body {
   width: 100%;
   min-width: 280px;
 }
+
+.up-arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  bottom: 10%;
+  right: 1em;
+  opacity: 0.5;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-bottom: 1em solid #212225;
+  transition: color 0.5s;
+}
+
+.up-arrow:hover {
+  border-bottom-color: #ccc3c3;
+  opacity: 1;
+}
