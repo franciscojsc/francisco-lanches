@@ -102,6 +102,19 @@
       <h3>Localização</h3>
       <div class="map" id="map">Mapa</div>
     </section>
+    <section class="contact">
+      <h2>Contato</h2>
+      <form class="group-form" method="POST" action="/">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" title="Insira o seu nome" required />
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" title="Insira o seu e-mail" required />
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" maxlength="600" cols="22" rows="5" title="Insira o sua mensagem"
+          required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
   </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js"></script>

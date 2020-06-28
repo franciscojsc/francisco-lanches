@@ -84,7 +84,8 @@ body {
 }
 
 .about h2,
-.about h3 {
+.about h3,
+.contact h2 {
   text-align: center;
 }
 
@@ -99,4 +100,56 @@ body {
   margin-top: 1em;
   width: 100%;
   height: 400px;
+}
+
+.contact {
+  background-color: #374c5a;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.group-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.group-form label,
+.group-form button {
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+.group-form input,
+.group-form textarea,
+.group-form button {
+  font-size: inherit;
+  font-family: inherit;
+  width: 100%;
+  min-width: 280px;
+  padding: 0.5em;
+}
+
+.group-form button {
+  width: 50%;
+  background-color: rgb(191, 200, 231);
+  cursor: pointer;
+  border-radius: 0.3em;
+}
+
+.group-form button:hover {
+  filter: opacity(0.8);
+}
+
+.group-form button:active {
+  background: #0051ff;
+  color: #fff;
+  filter: opacity(0.8);
+}
+
+.contact textarea {
+  resize: none;
+  width: 100%;
+  min-width: 280px;
 }
