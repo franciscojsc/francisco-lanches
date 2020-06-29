@@ -203,6 +203,23 @@ body {
   width: 1em;
 }
 
+.delivery .motorcycle {
+  position: absolute;
+  right: 0;
+  bottom: 4px;
+  width: 3em;
+  animation: 8s linear 0s infinite animationMotorcycle;
+}
+
+@keyframes animationMotorcycle {
+  from {
+    right: -20%;
+  }
+  to {
+    right: 100%;
+  }
+}
+
 .up-arrow {
   display: inline-block;
   width: 0;
